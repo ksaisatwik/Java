@@ -1,0 +1,38 @@
+Recursion
+
+1. Divide and Conquer?
+=> A problem-solving paradigm where a problem is divided into smaller sub-problems and solved independently, and then combined to obtain the solution to the original problem.
+
+=> It involves three steps: divide the problem into smaller sub-problems, conquer the sub-problems recursively and combine the solutions of sub-problems to solve the original problem.
+
+eg: Elections
+       |
+A  ->  B  -> C
+|      |     |
+          7->8->9
+      4->5->6
+
+1-> 2->3
+|  -> |  -> |
+      |
+      A(one winning party)
+
+Types of Recursion :
+
+2. Merge Sort : 
+=> A sorting algorithm that follows the divide-conquer approach.
+
+=> It divides the array into two halves, sorts each half recursively and then merges the sorted halves.
+
+=> Space-optimized merge sort reduces the auxiliary space complexity by merging the arrays instead of using additional space.
+
+3. Quick sort:
+=> Quick sort is another sorting algorithm based on the divide-conquer strategy.
+
+=> It selects a pivot element, partitions the array into two subarrays such that elements less than the pivot are on the right.
+
+=> It recursively sorts the subarrays and combines them to obtain the sorted array.
+
+4. Sorted-Rotated Array Search:
+-> Searching in a sorted and rotated array involves finding a target element efficiently in an array that is both sorted and rotated.
+-> It is solved using the divide-conquer approach using binary-search variants tailored for sorted and rotated arrays.
